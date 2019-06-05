@@ -1,0 +1,56 @@
+/* add your CSS here */
+.Box {
+  width: 330px;
+  border: 2px solid grey;
+  box-shadow: 5px 10px #888888;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: impact, sans-serif;
+  color: green;
+  margin-left:10px; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.border {
+  border: 1px solid grey;
+  padding: px;
+  margin: 10px;
+
+
+}
+
+p {
+  padding: 10px;
+  font-size: 12pt;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+#fact {
+  font-style: italic;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: serif;
+}
+
+span {
+  font-family: sans-serif;
+  font-weight: bold;
+}
